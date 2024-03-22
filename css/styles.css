@@ -456,7 +456,7 @@ color: #434455;
 
 .footer {
     width: 1440px;
-height: 312px;
+    height: 312px;
     padding-top: 100px ;
     padding-bottom: 100px;
 background: #2e2f42;
@@ -466,9 +466,10 @@ background: #2e2f42;
 .footer-wrap-container {   
     display: flex;
     align-items: baseline;
+
 }
 .container-footer {
- 
+  
   margin-right: 120px
 }
 .logo-part-footer{    
@@ -539,4 +540,56 @@ height: 40px;
 
 .social-links-footer .link:focus {
     background-color:  #31d0aa;
+}
+
+.backdrop {
+    position: fixed;
+   top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modal {
+    position: absolute;
+    width: 408px;
+    min-height: 584px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+    background: #fcfcfc;
+    border-radius: 4px;
+    color: #fff; 
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   padding: 24px;
+
+}
+
+.modal-close {
+    position: absolute;
+    right: 24px;
+    top: 24px;
+}
+
+.modal-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42; 
+    max-width: 360px;
+    margin-bottom: 16px;
+}
+
+.modal-form {
+
+}
+
+.modal-input {
+    border: 1px solid #4d5ae5;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+    background-color: transparent;
+    margin-bottom: 8px;
 }
