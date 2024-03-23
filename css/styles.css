@@ -592,5 +592,28 @@ height: 40px;
     width: 360px;
     height: 40px;
     background-color: transparent;
+    outline: transparent;
     margin-bottom: 8px;
+
+}
+
+.modal-label {
+
+font-size: 12px;
+line-height: 1.16667;
+letter-spacing: 0.04em;
+color: #8e8f99;
+display: block;
+margin-bottom: 4px;
+}
+.modal-icon {
+    fill:  #4d5ae5;;
+    position: absolute;
+    left: 19px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.modal-input-wrap {
+    position: relative;
 }
