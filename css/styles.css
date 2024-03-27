@@ -670,7 +670,9 @@ align-items: center;
     border: none;
 }
 
-
+.modal-field {
+    margin-bottom: 8px;
+}
 
 .modal-title {
     font-weight: 500;
