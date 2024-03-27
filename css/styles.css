@@ -628,7 +628,6 @@ pointer-events: auto;
     top: 24px;
 width: 24px;
 height: 24px;
- 
 border-radius: 50%;
 display: flex; 
 align-items: center;
@@ -652,9 +651,7 @@ border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border: none;
 }
 
-.modal-field {
-    padding: 72px 24px 24px 24px; 
-}
+
 
 .modal-title {
     font-weight: 500;
@@ -665,6 +662,7 @@ border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: #2e2f42; 
     max-width: 360px;
     margin-bottom: 16px;
+    padding-top: 24px;
   
 }
 
