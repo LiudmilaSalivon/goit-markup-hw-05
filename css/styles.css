@@ -587,11 +587,22 @@ gap 24px;
 }
 
 .container-btn-subscribe {
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+text-align: center;
+color: #fff;
     min-width: 165px;
     height: 40px;
     display: flex; 
     justify-content: center; 
     align-items: center;
+    border-radius: 4px;
+padding: 8px 24px;
+width: 165px;
+height: 40px;
+background-color:#4d5ae5;
 }
 
 .btn-subscribe {
@@ -599,16 +610,11 @@ gap 24px;
     align-items: center;
     justify-content: center;
     color: #ffffff;
-    background-color:#4d5ae5;
+    fill: #fff
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    border-radius: 4px;
-padding: 8px 24px;
-width: 165px;
-height: 40px;
-background: #4d5ae5;
+
 letter-spacing: 0.04em;
 cursor: pointer;
-background-color: #4D5AE5 
 border: none;
 border-radius: 4px; 
 }
