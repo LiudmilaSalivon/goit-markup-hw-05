@@ -545,11 +545,7 @@ height: 40px;
 }
 
 .footer-container-subscribe {
-display: flex;
-max-width: 453px;
-    height: 80px;  
-    right: 24px;
-    top: 24px;
+margin-left: auto;
 }
 
 .container-subscribe {
@@ -564,7 +560,7 @@ max-width: 453px;
 }
 .subscribe-form {
     display: flex;
-    
+    gap: 24px;
 }
 
 
