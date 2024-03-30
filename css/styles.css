@@ -581,6 +581,8 @@ font-size: 12px;
 line-height: 2;
 letter-spacing: 0.04em;
 color: #fff;
+background-color: transparent;
+padding-left: 16px;
 gap 24px;
 }
 
