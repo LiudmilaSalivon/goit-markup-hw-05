@@ -553,17 +553,18 @@ max-width: 453px;
 }
 
 .container-subscribe {
+    display:inline-block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
     margin-bottom: 16px;
-  
+    gap 24px;
 }
 .subscribe-form {
     display: flex;
-    gap 24px;
+    
 }
 
 
@@ -583,7 +584,7 @@ letter-spacing: 0.04em;
 color: #fff;
 background-color: transparent;
 padding-left: 16px;
-gap 24px;
+
 }
 
 .container-btn-subscribe {
