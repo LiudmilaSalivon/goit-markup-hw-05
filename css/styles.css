@@ -593,30 +593,26 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 text-align: center;
 color: #fff;
-    min-width: 165px;
-    height: 40px;
-    display: flex; 
-    justify-content: center; 
-    align-items: center;
-    border-radius: 4px;
+min-width: 165px;    height: 40px;
+display: flex; 
+justify-content: center; 
+align-items: center;
+border-radius: 4px;
 padding: 8px 24px;
 width: 165px;
 height: 40px;
 background-color:#4d5ae5;
-}
-
-.btn-subscribe {
-    display: block;
-    align-items: center;
-    justify-content: center;
-    color: #ffffff;
-    fill: #fff
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 letter-spacing: 0.04em;
 cursor: pointer;
 border: none;
 border-radius: 4px; 
+}
+
+.btn-subscribe {
+
+    fill: #fff
+   
 }
 
 .backdrop {
