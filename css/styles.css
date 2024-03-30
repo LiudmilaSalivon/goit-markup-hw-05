@@ -457,22 +457,21 @@ color: #434455;
 
 
 .footer {
-
     height: 312px;
-        padding-top: 100px ;
-        padding-bottom: 100px;
+    padding-top: 100px ;
+    padding-bottom: 100px;
     background: #2e2f42;
-    
     }
     
     .footer-wrap-container {   
         display: flex;
         align-items: baseline;
     }
+
     .container-footer {
-     
       margin-right: 120px;
     }
+
     .logo-part-footer{    
     color: #f4f4fd;
     }
@@ -486,12 +485,10 @@ color: #434455;
         text-transform: uppercase;
         color: #4d5ae5;
         display: inline-block;
-      
       max-width: 264px;
     }
     
     .footer-text {
-       
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -507,9 +504,9 @@ height: 40px;
 }
 
 .container-icons {
-    padding-bottom: 132px;;
-    margin-right: 80px;
+   
 }
+
 .container-item-icons {
     align-items: baseline;
     font-weight: 500;
@@ -519,13 +516,13 @@ height: 40px;
     margin-bottom: 16px;
     max-width: 208px;
 }
+
 .social-links-footer {
     
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 16px;
-
 }
 
 .social-links-footer .link {
@@ -538,6 +535,7 @@ height: 40px;
     background-color:#4d5ae5;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .social-links-footer .link:hover {
     background-color:  #31d0aa;
 }
@@ -546,35 +544,32 @@ height: 40px;
     background-color:  #31d0aa;
 }
 
-.footer-subscribe {
+.footer-container-subscribe {
 display: flex;
 max-width: 453px;
-    height: 80px;
-   
+    height: 80px;  
     right: 24px;
     top: 24px;
 }
 
 .container-subscribe {
     
-    display: flex;
-    align-items: baseline;
+    
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
     margin-bottom: 24px;
-    width: 453px;
-    height: 80px;
+  
 }
+
 .subscribe-label {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     border: 1px solid #fff;
     border-radius: 4px;
     width: 264px;
     height: 40px;
- 
 font-size: 12px;
 line-height: 2;
 letter-spacing: 0.04em;
@@ -594,6 +589,7 @@ width: 165px;
 height: 40px;
 background: #4d5ae5;
 }
+
 .backdrop {
     position: fixed;
    top: 0;
@@ -698,7 +694,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
     padding-left: 38px;
     background-color: transparent;
     outline: transparent;
-    margin-bottom: 8px;
+  
     color: #8e8f99;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -734,7 +730,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-input-wrap {
     position: relative;
-   margin-bottom: 24px;
+   
 }
 .modal-input:focus {
     border-color: #4D5AE5;
@@ -800,9 +796,8 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 }
 
 .modal-check-icon {
-border-radius: 2px;
-fill: #404bbf;
-border: 1px solid #404bbf;
+
+
 }
 
 
