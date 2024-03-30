@@ -554,7 +554,7 @@ max-width: 453px;
 
 .container-subscribe {
     
-    
+    margin-bottom: 16px; 
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -576,6 +576,14 @@ letter-spacing: 0.04em;
 color: #fff;
 }
 
+.container-btn-subscribe {
+    min-width: 165px;
+    height: 40px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
 .btn-subscribe {
     display: block;
     align-items: center;
@@ -588,6 +596,11 @@ padding: 8px 24px;
 width: 165px;
 height: 40px;
 background: #4d5ae5;
+letter-spacing: 0.04em;
+cursor: pointer;
+background-color: #4D5AE5 
+border: none;
+border-radius: 4px; 
 }
 
 .backdrop {
